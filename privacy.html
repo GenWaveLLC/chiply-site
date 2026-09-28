@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chiply Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Chiply iOS app.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Privacy Policy for Chiply</h1>
+<p class="meta">Effective date: September 27, 2026</p>
+
+<h2>Summary</h2>
+<p>Chiply stores your game data only on your device. Chiply has no account, no sign-in, no analytics, no ads, and no tracking. Chiply has no server of its own. The only data that leaves your device is data you choose to send: photos sent to OpenAI for the optional AI chip count, or files you export through the share sheet.</p>
+
+<h2>Data we collect</h2>
+<p>We, the developer of Chiply (Genwave), do not collect any data from you. We have no server that receives your game data. We have no analytics and no advertising in the app.</p>
+
+<h2>Data on your device</h2>
+<p>Chiply stores your game data in a local database on your device (SQLite). This includes:</p>
+<ul>
+<li>Players and chip sets you create.</li>
+<li>Buy-ins and chip counts for each game.</li>
+<li>Settlement results (who pays whom).</li>
+<li>Photos of chip stacks that you take or pick.</li>
+</ul>
+<p>This data stays on your device. It does not sync to a cloud service. If you delete the app, this data is deleted with it.</p>
+
+<h2>Camera and photos</h2>
+<p>Chiply asks for camera and photo library access so you can take or pick photos of chip stacks. Chiply uses these photos to show chip stacks on screen and, if you choose, to count chips with AI. Chiply stores these photos on your device only.</p>
+
+<h2>AI count and OpenAI</h2>
+<p>Chiply has an optional feature called "Count chips with AI". You do not have to use this feature.</p>
+<p>When you tap "Count chips with AI", Chiply sends the photos you selected (resized as JPEG files) and the chip colors and values for your chip set to the OpenAI API. Chiply sends this data directly from your device to OpenAI over a secure (HTTPS) connection. Chiply uses your own OpenAI API key to make this request.</p>
+<p>We do not receive these photos. We do not receive your OpenAI API key. OpenAI processes this data under its own terms. Read OpenAI's <a href="https://openai.com/policies/privacy-policy/">Privacy Policy</a> and its <a href="https://openai.com/enterprise-privacy/">API data usage policy</a> to learn how OpenAI handles this data.</p>
+
+<h2>API key storage</h2>
+<p>You enter your OpenAI API key in Chiply's Settings screen. Chiply stores this key in the iOS Keychain on your device (using expo-secure-store). Chiply never sends this key to us. Chiply never includes this key in an export.</p>
+
+<h2>Sharing and export</h2>
+<p>Chiply lets you export your game history as a JSON file, a CSV file, or a ZIP file. Chiply opens the iOS share sheet for this export. You choose where the exported file goes. We do not receive a copy of any export.</p>
+
+<h2>Data retention and deletion</h2>
+<p>Chiply keeps your data on your device until you delete it. You can:</p>
+<ul>
+<li>Delete a single game.</li>
+<li>Use "Reset all data" to delete all data in the app.</li>
+<li>Delete the app to remove all Chiply data from your device.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Chiply is not directed to children under 13. Chiply does not knowingly collect data from children, because Chiply does not collect data from anyone.</p>
+
+<h2>Changes to this policy</h2>
+<p>We may update this policy if Chiply changes. We will post the new policy on this page and update the effective date above.</p>
+
+<h2>Contact</h2>
+<p>To ask a question or report a problem, open an issue on our GitHub page: <a href="https://github.com/GenWaveLLC/chiply-site/issues">github.com/GenWaveLLC/chiply-site/issues</a>.</p>
+
+<footer>
+<p><a href="index.html">Chiply</a> · <a href="support.html">Support</a></p>
+</footer>
+</main>
+</body>
+</html>
